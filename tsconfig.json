@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Versión de JavaScript a generar
+      "module": "CommonJS", // Módulo de Node.js
+      "moduleResolution": "node", // Resolución de módulos estilo Node.js
+      "esModuleInterop": true, // Interoperabilidad con módulos ES6
+      "forceConsistentCasingInFileNames": true, // Asegura que el case de los archivos sea consistente
+      "skipLibCheck": true, // Omitir la verificación de tipos de las definiciones en node_modules
+      "strict": true, // Activa todas las comprobaciones estrictas de TypeScript
+      "resolveJsonModule": true, // Permite la importación de archivos JSON
+      "types": ["node"], // Incluir las definiciones de tipos de Node.js y `node-fetch` para `fetch`
+      "lib": ["ES2020", "DOM"], // Incluye las APIs de ES2020 y del navegador (para `fetch`)
+      "outDir": "./dist", // Carpeta de salida para los archivos compilados
+      "sourceMap": true // Genera mapas de fuente para facilitar la depuración
+    },
+    "include": [
+      "src/**/*.ts" // Incluir todos los archivos TypeScript en la carpeta src
+, "src/index.js", "src/functions/novelCoolGet.js"    ],
+    "exclude": [
+      "node_modules", // Excluir la carpeta node_modules
+      "dist" // Excluir la carpeta de salida
+    ]
+  }
+  

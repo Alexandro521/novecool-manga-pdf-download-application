@@ -1,0 +1,20 @@
+{
+  "name": "novecool-manga-pdf-download-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Añexandro",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.0",
+    "sharp": "^0.33.5"
+  }
+}
